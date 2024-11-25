@@ -8,10 +8,10 @@ use PDO;
 class Conexao_HANAB1_SEIDOR
 {
 
-    private $host = "pitecnomhdb.b1cloud.com.br:30075";
+    private $host = "localhost";
     private $db_name = "SBO_TST_TECNOMETAL";
-    private $username = 'ATAIDES';
-    private $password = "Ata@2024";
+    private $username = 'root';
+    private $password = "root@2024*";
     private $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_EMULATE_PREPARES   => false,

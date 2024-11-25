@@ -9,9 +9,9 @@ use PDOException;
 class Conexao
 {
   private $host     = "127.0.0.1";  // Endereço do servidor MySQL
-  private $dbname   = "import_pcp"; // Nome do banco de dados
+  private $dbname   = "inventario"; // Nome do banco de dados
   private $user     = "root";       // Nome de usuário do banco de dados
-  private $password = "Tecno@2024"; // Senha do banco de dados
+  private $password = "root@2024"; // Senha do banco de dados
 
   public function conectar()
   {
